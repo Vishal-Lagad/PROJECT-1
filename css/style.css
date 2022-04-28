@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+ 
+:root {
+    --main-bg-color: #2874f0;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 58px;
+background: var(--main-bg-color);
+font-family: 'Tapestry', cursive;
+
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+  
+nav ul{
+    display: flex;
+    justify-content: flex start;
+    align-items: center;
+    height: 58px;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-weight: bold;
+}
+.search{
+
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    width: 500px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 0 12px;
+}
+.search button{
+    font-family: 'Tapestry', cursive;
+    font-weight: 900;
+
+}
+.slider img{
+    height: 300px;
+    width: 800px;
+    margin: 0 30vh;
+    
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Tapestry', cursive;
+    
+}
